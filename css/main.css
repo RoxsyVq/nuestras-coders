@@ -1,0 +1,55 @@
+body{
+    padding: 50px;
+}
+
+.c, .c1{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background-color: lightgray;
+    position: relative;
+
+}
+
+.titulo{
+
+    width: 100%;
+    height: 100px;
+}
+.cv{
+  border: 2px solid black;
+  width: 160px;
+}
+
+.c img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+}
+.c1 img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+}
+.c1{
+  clear: left;
+}
+
+p{
+    position: absolute;
+    color: white;
+    width: bold;
+    bottom: 0;
+    right: 0%;
+    }
+
+.c img:hover{
+    opacity: 0.7;
+    transition: 2s;
+}
+
+.c1 img:hover{
+    opacity: 0.7;
+    transition: 2s;
+}
