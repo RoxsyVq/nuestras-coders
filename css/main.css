@@ -1,14 +1,18 @@
 body{
     padding: 50px;
 }
-
+.contenedor{
+  width: 950px;
+  margin: 0 auto;
+}
 .c, .c1{
     float: left;
     width: 250px;
     height: 250px;
     margin: 10px;
-    background-color: lightgray;
+    background: #000;
     position: relative;
+
 
 }
 
@@ -19,13 +23,16 @@ body{
 }
 .cv{
   border: 2px solid black;
-  width: 160px;
+  width: 100px;
 }
 
 .c img{
     width: 250px;
     height: 250px;
     position: absolute;
+  display: block;
+  opacity: 0.7;
+
 }
 .c1 img{
     width: 250px;
@@ -43,13 +50,3 @@ p{
     bottom: 0%;
     right: 2%;
     }
-
-.c img:hover{
-    opacity: 0.7;
-    transition: 2s;
-}
-
-.c1 img:hover{
-    opacity: 0.7;
-    transition: 2s;
-}
